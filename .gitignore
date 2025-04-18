@@ -1,0 +1,37 @@
+# 의존성 디렉토리
+/vendor/
+/node_modules/
+
+# 컴포저 파일
+composer.phar
+
+# 개발 환경 설정 파일
+.env
+.env.local
+.env.*.local
+
+# 캐시 파일
+/.phpunit.result.cache
+/cache/
+
+# 로그 파일
+/logs/
+*.log
+
+# IDE 관련 파일
+/.idea/
+/.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS 생성 파일
+.DS_Store
+Thumbs.db
+
+# 업로드된 파일 등 사용자 데이터 (개발용 데이터가 아닌 경우)
+/uploads/
+/public/uploads/
+
+# 빌드 파일
+/build/
+/dist/
