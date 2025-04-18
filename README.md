@@ -15,12 +15,10 @@
      ```json
      {
        "require": {
-         "php": ">=7.3",
-         "phpunit/phpunit": "^9.0"
+         "php": ">=7.3"
        },
        "scripts": {
-         "dev": "php -S localhost:8000",
-         "test": "phpunit"
+         "dev": "php -S localhost:8000"
        }
      }
      ```
@@ -29,6 +27,7 @@
      composer install
      ```
    - 설치된 의존성은 `vendor` 디렉토리에 저장됩니다.
+   - 해당 프로젝트는 현재 php 이외의 의존성을 필요로하지 않습니다. 추후 필요하다면 추가할 예정입니다.
 
 ## 실행 방법
 
@@ -37,9 +36,3 @@
 composer run dev
 ```
 - 개발 서버가 `localhost:8000`에서 실행됩니다.
-
-### 테스트 실행
-```bash
-composer run test
-```
-- PHPUnit을 사용하여 테스트를 실행합니다.
