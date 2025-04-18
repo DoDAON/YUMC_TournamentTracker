@@ -1,0 +1,10 @@
+{
+  "require": {
+    "php": ">=7.3",
+    "phpunit/phpunit": "^9.0"
+  },
+  "scripts": {
+    "dev": "php -S localhost:8000",
+    "test": "phpunit"
+  }
+}
