@@ -22,7 +22,7 @@
                     </button>
                 </div>
                 <!-- 데스크톱 메뉴 -->
-                <div class="hidden sm:flex space-x-4 sm:space-x-6">
+                <div class="hidden sm:flex items-center space-x-4 sm:space-x-6">
                     <a href="#" class="text-white hover:text-amber-200 transition">진행중인 토너먼트</a>
                     <a href="#" class="text-white hover:text-amber-200 transition">종료된 토너먼트</a>
                     <a href="#" class="bg-white text-rose-500 px-4 py-2 rounded-full hover:bg-amber-200 transition">참가하기</a>
@@ -40,8 +40,8 @@
     </nav>
 
     <!-- 히어로 섹션 -->
-    <section class="min-h-screen flex items-center relative overflow-hidden">
-        <div class="container mx-auto px-4 sm:px-6 pt-20 sm:pt-32">
+    <section class="min-h-screen flex relative overflow-hidden pt-20">
+        <div class="container mx-auto px-4 sm:px-6 pt-16 sm:pt-28">
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 sm:gap-12 items-center">
                 <div class="animate__animated animate__fadeInLeft text-center sm:text-left">
                     <h1 class="text-3xl sm:text-5xl font-bold text-white mb-4 sm:mb-6">최고의 게이머를 가리는<br>ultimate 토너먼트</h1>
